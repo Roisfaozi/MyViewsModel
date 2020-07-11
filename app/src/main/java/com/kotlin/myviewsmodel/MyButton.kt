@@ -24,7 +24,7 @@ class MyButton : AppCompatButton {
         init()
     }
 
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         background = when {
             isEnabled -> enabledBackground
